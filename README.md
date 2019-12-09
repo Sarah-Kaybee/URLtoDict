@@ -1,7 +1,9 @@
 # URLtoDict
 Transforms popular web dictionaries into word lists. Made for NLP data analysis. 
 Only oxfordreference available currently.
-Future sites: Wiktionary, 
+
+DEPENDENCIES: furl, bs4, requests, urllib
+Future sites: Wiktionary
 
 Takes 4-6 seconds per webpage.
 
