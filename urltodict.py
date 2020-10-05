@@ -68,6 +68,7 @@ class URLtoDict:
             # ^^^ hard-coded url from oxfordreference.com, defines the variables of ALL oxfordreference query strings.
             # print("template_url = ", template_url)
             # print("template_qs = ", template_qs)
+
             query_dict = parse_qs(str(template_qs))
             # print("query_dict =", query_dict)
 
@@ -142,3 +143,7 @@ class URLtoDict:
         base_url = urlunsplit(new_url)
 
         return base_url, qs
+
+
+if __name__ == "main":
+    pass
